@@ -1,0 +1,220 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+/* -------------------headings--------------- */
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.main-heading {
+  font-size: 3.4em;
+  font-weight: 900;
+  line-height: 1.5;
+  color: #fff;
+}
+
+.section-heading {
+  font-size: 3em;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+/* ------------------sections-------------- */
+.white-section {
+  background-color: #fff;
+}
+
+.coloured-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+p {
+  color: #8f8f8f;
+  font-size: 1em;
+  padding: 0 2.5em 0;
+}
+
+/*--------------------------container fluid-----------------------*/
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* --------------------title section------------------------- */
+/* ---------navigation bar------------ */
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.1rem;
+  font-family: "Montserrat", sans-serif;
+  /* color: ; */
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  /* font-weight: bold; */
+}
+.navbar-nav{
+text-align: right;
+}
+/* --------download button------------ */
+.download-button {
+  margin: 5% 3% 10% 2%;
+}
+
+
+.title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+.title-img {
+  width: 21%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 24%;
+}
+
+/* -----------X---------title section----------X--------------- */
+/*---------------------------- Features Section--------------------------- */
+.features {
+  /* padding: 8% 0 2%; */
+  position: relative;
+  z-index: 1;
+}
+
+.center {
+  margin-bottom: 4rem;
+}
+
+.feature-text {
+  font-weight: 600;
+  size: 1.5rem;
+  padding: 0.8em 0 0.1em;
+}
+
+/* ---------------------container fluid ----------------- */
+.checkcircle {
+  font-size: 4em;
+  color: #ef8172;
+}
+
+.fa-bullseye {
+  font-size: 4em;
+  color: #ef8172;
+}
+
+.fa-heart {
+  font-size: 4em;
+  color: #ef8172;
+}
+
+.checkcircle:hover {
+  color: #ff4c68;
+}
+
+.fa-bullseye:hover {
+  color: #ff4c68;
+}
+
+.fa-heart:hover {
+  color: #ff4c68;
+}
+
+/* ------------------------testimonials------------------- */
+.testimonials {
+  background-color: #ef8172;
+  font-family: Montserrat;
+  font-weight: 900;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+.img-testimonials {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.press {
+  background-color: #ef8172;
+  padding: 3% 0 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* -------------------------pricing----------------------------------- */
+#pricing {
+  padding: 100px;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.pricing-text {
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+.price-heading {
+  font-weight: bold;
+  size: 1.5rem;
+  padding: 0.8em 0 0.1em;
+}
+
+/* --------------------section cta--------------------------- */
+/* ----------------footer--------------------- */
+.sicons {
+  margin: 2% 1%;
+}
+
+.copyright {
+  margin: 4%;
+}
+
+/* --------------------------media query--------------------------- */
+@media (max-width:992px) {
+  .title .container-fluid {
+    text-align: center;
+  }
+
+  .title-img {
+    position: static;
+    transform: rotate(0);
+    width: 60%;
+  }
+
+  .carousel-item {
+    height: 39rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .carousel-item {
+    height: 60rem;
+  }
+  *{
+    text-align: center
+  }
+  .container-fluid{
+    padding: 7% 7%;
+  }
+}
